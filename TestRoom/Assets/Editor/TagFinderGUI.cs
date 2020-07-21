@@ -11,9 +11,14 @@ public class TagFinderGUI : Editor
         base.OnInspectorGUI();
         TagObjectFinder finder = (TagObjectFinder)target;
         
-        if(GUILayout.Button("Find Tag Object"))
+        if(GUILayout.Button("Find GameObject By Tag"))
         {
             finder.FindObjects();
+        }
+
+        if (GUILayout.Button("Find GameObject By Enum"))
+        {
+            finder.FindObjectsByEnum();
         }
     }
 }
