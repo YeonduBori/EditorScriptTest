@@ -58,3 +58,9 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+TestRoom/Library/
+TestRoom/.vscode/settings.json
+TestRoom/Logs/
+TestRoom/Temp/
+TestRoom/Packages/
+TestRoom/ProjectSettings/
